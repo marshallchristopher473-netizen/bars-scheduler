@@ -1,0 +1,70 @@
+{
+  "tasks": [
+    {
+      "id": "sleep",
+      "name": "Sleep",
+      "task_type": "bio",
+      "duration_minutes": 480,
+      "priority": 10,
+      "difficulty": 1,
+      "preferred_windows": [[276, 288], [0, 84]]
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "task_type": "bio",
+      "duration_minutes": 30,
+      "priority": 9,
+      "difficulty": 1,
+      "preferred_windows": [[84, 90]]
+    },
+    {
+      "id": "lunch",
+      "name": "Lunch",
+      "task_type": "bio",
+      "duration_minutes": 45,
+      "priority": 9,
+      "difficulty": 1,
+      "preferred_windows": [[156, 165]]
+    },
+    {
+      "id": "dinner",
+      "name": "Dinner",
+      "task_type": "bio",
+      "duration_minutes": 45,
+      "priority": 9,
+      "difficulty": 1,
+      "preferred_windows": [[240, 249]]
+    },
+    {
+      "id": "study_math",
+      "name": "Math Study",
+      "task_type": "study",
+      "duration_minutes": 120,
+      "priority": 8,
+      "difficulty": 7,
+      "deadline": "2026-07-30T23:59:00"
+    },
+    {
+      "id": "exercise",
+      "name": "Exercise",
+      "task_type": "routine",
+      "duration_minutes": 60,
+      "priority": 7,
+      "difficulty": 5
+    },
+    {
+      "id": "project_work",
+      "name": "Project Work",
+      "task_type": "routine",
+      "duration_minutes": 150,
+      "priority": 9,
+      "difficulty": 8,
+      "deadline": "2026-07-30T12:00:00"
+    }
+  ],
+  "available_windows": [
+    {"start_slot": 90, "end_slot": 156},
+    {"start_slot": 165, "end_slot": 240}
+  ]
+}
